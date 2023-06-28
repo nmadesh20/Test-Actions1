@@ -3,7 +3,6 @@ run-name: Artifact run
 on: [push]
 jobs:
   example-job:
-    name: Save output
     runs-on: ubuntu-latest
     steps:
       - shell: bash
@@ -14,3 +13,8 @@ jobs:
         with:
           name: output-log-file
           path: output.log
+      - name: Download a single artifact
+        needs: Upload output file
+        uses: actions/download-artifact@v3
+        with:
+          name: output-log-file
