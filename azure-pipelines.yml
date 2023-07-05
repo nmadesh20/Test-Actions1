@@ -17,6 +17,9 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
+      env:
+        MY_MAPPED_TOKEN: $(azuser)
+      printenv
       echo $(azuser) 
       echo $(azpwd)
       az login -u $(AZUSER) -p $(AZPWD)
