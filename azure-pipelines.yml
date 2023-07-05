@@ -19,5 +19,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      echo "user=$(va)"
-      echo "passwd=$(vb)"
+      echo "a=$(va)"
+      echo "b=$(vb)"
+      echo "user=$(azuser)"
+      echo "passwd=$(azpwd)"
