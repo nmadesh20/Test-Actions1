@@ -4,7 +4,8 @@
 # https://aka.ms/yaml
 variables:
 - group: logincreds
-
+- name: va
+  value: $[variables.azuser]
 trigger:
 - main
 
@@ -16,9 +17,4 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      # Write your commands here
-    env:
-        MY_MAPPED_TOKEN: $(azuser)
-    printenv | grep MY_MAPPED_TOKEN
-      echo $(azuser) 
-      echo $(azpwd)
+      echo "a=$(va)"
