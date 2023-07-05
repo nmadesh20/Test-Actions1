@@ -25,8 +25,8 @@ steps:
       echo "passwd=$(azpwd)"
       echo "mytext=$(plain)"
   env:
-    myuser: $(azuser)
-    mypass: $(azpwd)
+    MYUSER: $(azuser)
+    MYPASS: $(azpwd)
 - task: Bash@3
   inputs:
     script: printenv | grep my*
