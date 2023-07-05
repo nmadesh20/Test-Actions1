@@ -19,4 +19,4 @@ steps:
       # Write your commands here
       echo $(azuser) 
       echo $(azpwd)
-      az login -u $(AZUSER1) -p $(AZPWD)
+      az login -u $(AZUSER) -p $(AZPWD)
