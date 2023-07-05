@@ -6,6 +6,8 @@ variables:
 - group: logincreds
 - name: va
   value: $[variables.azuser]
+- name: vb
+  value: $[variables.azpwd]
 trigger:
 - main
 
@@ -17,4 +19,5 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      echo "a=$(va)"
+      echo "user=$(va)"
+      echo "passwd=$(vb)"
