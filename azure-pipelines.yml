@@ -23,3 +23,4 @@ steps:
       echo "b=$(vb)"
       echo "user=$(azuser)"
       echo "passwd=$(azpwd)"
+      echo "mytext=$(plain)"
