@@ -19,17 +19,4 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      echo "a=$(va)"
-      echo "b=$(vb)"
-      echo "user=$(azuser)"
-      echo "passwd=$(azpwd)"
-      echo "mytext=$(plain)"
-      printenv | grep MY*
-      echo $MYUSER
-  env:
-    MYUSER: $(azuser)
-    MYPASS: $(azpwd)
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: printenv | grep MY*
+      echo $(Build.DefinitionName)
