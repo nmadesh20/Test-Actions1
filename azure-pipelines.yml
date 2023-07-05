@@ -22,6 +22,6 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      echo $(AZUSER) 
+      echo $(AZUSER1) 
       echo $(AZPWD)
-      az login -u $(AZUSER) -p $(AZPWD)
+      az login -u $(AZUSER1) -p $(AZPWD)
