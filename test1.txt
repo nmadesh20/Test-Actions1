@@ -11,3 +11,4 @@ Azure
 GCP
 OCI
 AWS
+Cloud
