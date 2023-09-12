@@ -4,3 +4,4 @@ trigger1
 pr
 pr test
 github
+BitBucket
