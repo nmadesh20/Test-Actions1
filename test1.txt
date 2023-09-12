@@ -6,3 +6,4 @@ pr test
 github
 BitBucket
 JFrog
+Jenkins
