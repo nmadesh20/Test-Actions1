@@ -7,3 +7,4 @@ github
 BitBucket
 JFrog
 Jenkins
+Azure
