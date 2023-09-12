@@ -10,3 +10,4 @@ Jenkins
 Azure
 GCP
 OCI
+AWS
