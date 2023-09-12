@@ -9,3 +9,4 @@ JFrog
 Jenkins
 Azure
 GCP
+OCI
