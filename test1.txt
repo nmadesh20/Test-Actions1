@@ -13,3 +13,4 @@ OCI
 AWS
 Cloud
 AKS
+EKS
