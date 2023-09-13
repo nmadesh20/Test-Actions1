@@ -26,3 +26,4 @@ Trigger1
 first
 second
 third
+fourth
