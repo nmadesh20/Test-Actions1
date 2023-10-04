@@ -34,3 +34,4 @@ Germany
 Paris
 8
 10
+Swiss
